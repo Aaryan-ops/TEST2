@@ -1,0 +1,15 @@
+publishing to github pages. vs firebase. learn two.
+wordpress??
+npm install gh-pages --save
+
+https://github.com/new
+
+git remote add origin https://github.com/Aaryan-ops/TEST2.git;
+
+package.json
+"homepage": "http://Aaryan-ops.github.io/TEST2"
+
+"predeploy":"npm run build",
+"deploy":"gh-pages -d build" 
+
+npm run deploy
